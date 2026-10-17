@@ -1,0 +1,127 @@
+{
+  "selected": "LinearSVC",
+  "test": {
+    "accuracy": 0.834685598377282,
+    "scam_precision": 0.9218181818181819,
+    "scam_recall": 0.8086124401913876,
+    "scam_f1": 0.8615123194562447,
+    "macro_f1": 0.8282404364576821,
+    "confusion_matrix": [
+      [
+        316,
+        43
+      ],
+      [
+        120,
+        507
+      ]
+    ]
+  },
+  "test_all_models": {
+    "MultinomialNB": {
+      "accuracy": 0.8742393509127789,
+      "scam_precision": 0.9921722113502935,
+      "scam_recall": 0.8086124401913876,
+      "scam_f1": 0.8910369068541301,
+      "macro_f1": 0.8711779258491275,
+      "confusion_matrix": [
+        [
+          355,
+          4
+        ],
+        [
+          120,
+          507
+        ]
+      ]
+    },
+    "LogisticRegression": {
+      "accuracy": 0.8448275862068966,
+      "scam_precision": 0.9388888888888889,
+      "scam_recall": 0.8086124401913876,
+      "scam_f1": 0.8688946015424165,
+      "macro_f1": 0.8394162448705871,
+      "confusion_matrix": [
+        [
+          326,
+          33
+        ],
+        [
+          120,
+          507
+        ]
+      ]
+    },
+    "LinearSVC": {
+      "accuracy": 0.834685598377282,
+      "scam_precision": 0.9218181818181819,
+      "scam_recall": 0.8086124401913876,
+      "scam_f1": 0.8615123194562447,
+      "macro_f1": 0.8282404364576821,
+      "confusion_matrix": [
+        [
+          316,
+          43
+        ],
+        [
+          120,
+          507
+        ]
+      ]
+    }
+  },
+  "cv_train": {
+    "MultinomialNB": {
+      "accuracy": 0.8594941790445604,
+      "scam_precision": 0.8528470889315419,
+      "scam_recall": 0.9174122505161735,
+      "scam_f1": 0.8839522546419099,
+      "macro_f1": 0.8529629024989813,
+      "confusion_matrix": [
+        [
+          808,
+          230
+        ],
+        [
+          120,
+          1333
+        ]
+      ]
+    },
+    "LogisticRegression": {
+      "accuracy": 0.8992372541148134,
+      "scam_precision": 0.9167822468793343,
+      "scam_recall": 0.9098417068134893,
+      "scam_f1": 0.9132987910189982,
+      "macro_f1": 0.8965152316379131,
+      "confusion_matrix": [
+        [
+          918,
+          120
+        ],
+        [
+          131,
+          1322
+        ]
+      ]
+    },
+    "LinearSVC": {
+      "accuracy": 0.9036531513448415,
+      "scam_precision": 0.9174122505161735,
+      "scam_recall": 0.9174122505161735,
+      "scam_f1": 0.9174122505161735,
+      "macro_f1": 0.9009026570499943,
+      "confusion_matrix": [
+        [
+          918,
+          120
+        ],
+        [
+          120,
+          1333
+        ]
+      ]
+    }
+  },
+  "caveat": "Held-out SYNTHETIC data only. Not evidence of real-world fraud-detection accuracy."
+}

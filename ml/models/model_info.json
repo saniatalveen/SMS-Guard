@@ -1,0 +1,13 @@
+{
+  "model_version": "0.1.0",
+  "dataset_version": "synthetic-v1",
+  "model_type": "LinearSVC",
+  "language": "en",
+  "seed": 42,
+  "dataset_source": "Synthetic English SMS (generated, fictional entities). UCI SMS Spam Collection not included: no network access in build environment.",
+  "split": "GroupShuffleSplit 75/25 by template family; model chosen by GroupKFold(5) macro-F1 on train only",
+  "vectorizer": "TF-IDF word 1-2gram, sublinear tf",
+  "n_train": 2491,
+  "n_test": 986,
+  "positive_class": "scam"
+}

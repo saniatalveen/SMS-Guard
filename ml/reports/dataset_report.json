@@ -1,0 +1,43 @@
+{
+  "rows": 3477,
+  "missing_columns": [],
+  "null_counts": {
+    "message_id": 0,
+    "text": 0,
+    "label": 0,
+    "scam_type": 0,
+    "source_type": 0,
+    "source_reference": 0,
+    "review_status": 0,
+    "explanation": 0
+  },
+  "bad_labels": 0,
+  "exact_duplicates": 0,
+  "class_counts": {
+    "scam": 2080,
+    "legitimate": 1397
+  },
+  "source_counts": {
+    "synthetic": 3477
+  },
+  "scam_types": {
+    "none": 1397,
+    "bank_phishing": 300,
+    "kyc_scam": 240,
+    "upi_fraud": 219,
+    "bill_disconnection": 180,
+    "investment": 180,
+    "courier_fee": 180,
+    "otp_theft": 179,
+    "lottery_prize": 156,
+    "fake_job": 156,
+    "urgent_payment": 156,
+    "loan_offer": 134
+  },
+  "review_status": {
+    "unreviewed": 3477
+  },
+  "contradictory_labels": 0,
+  "near_duplicate_pairs_in_sample_gt_0.95": 146,
+  "note": "All data is synthetic. Near-duplicates are expected within template families and are handled by a grouped split."
+}
